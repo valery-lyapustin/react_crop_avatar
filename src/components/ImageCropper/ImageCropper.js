@@ -18,7 +18,7 @@ const ImageCropper = ({ closeModal }) => {
 
 	const imgRef = useRef(null);
 	const previewCanvasRef = useRef(null);
-	const [crop, setCrop] = useState();
+	const [crop, setCrop] = useState(null);
 
 	const onSelectFile = (e) => {
 		const file = e.target.files?.[0];
@@ -54,6 +54,7 @@ const ImageCropper = ({ closeModal }) => {
 				imgRef.current.height
 			)
 		);
+
 		const dataUrl = previewCanvasRef.current.toDataURL();
 		const croppedFile = dataURLtoFile(dataUrl, imageName);
 		image.set(croppedFile);
