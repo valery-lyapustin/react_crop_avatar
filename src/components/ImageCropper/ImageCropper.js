@@ -22,13 +22,6 @@ const ImageCropper = ({ closeModal }) => {
 	const previewCanvasRef = useRef(null);
 	const [crop, setCrop] = useState(null);
 
-	const onSelectFile = (e) => {
-		const file = e.target.files?.[0];
-		if (!file) return;
-
-		image.set(file);
-	};
-
 	const onImageLoad = (e) => {
 		const { width, height } = e.currentTarget;
 		const cropWidthInPercent = (MIN_DIMENSION / width) * 100;
