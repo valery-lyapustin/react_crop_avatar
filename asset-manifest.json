@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_crop_avatar/static/css/main.f2add09b.css",
+    "main.js": "/react_crop_avatar/static/js/main.fcacb29c.js",
+    "static/js/453.24ea950a.chunk.js": "/react_crop_avatar/static/js/453.24ea950a.chunk.js",
+    "static/media/profile.png": "/react_crop_avatar/static/media/profile.5faf09a7795d28bf5a2b.png",
+    "index.html": "/react_crop_avatar/index.html",
+    "main.f2add09b.css.map": "/react_crop_avatar/static/css/main.f2add09b.css.map",
+    "main.fcacb29c.js.map": "/react_crop_avatar/static/js/main.fcacb29c.js.map",
+    "453.24ea950a.chunk.js.map": "/react_crop_avatar/static/js/453.24ea950a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2add09b.css",
+    "static/js/main.fcacb29c.js"
+  ]
+}
