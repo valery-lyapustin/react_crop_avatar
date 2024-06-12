@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# React Crop Avatar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание проекта
 
-## Available Scripts
+React Crop Avatar — это простое в использовании веб-приложение, разработанное на React, предназначенное для обрезки фотографий для создания аватаров.
 
-In the project directory, you can run:
+Проект предоставляет интуитивно понятный интерфейс, который позволяет пользователям легко выбирать, обрезать и скачивать изображения в формате, подходящем для использования в качестве аватара в социальных сетях, форумах или других онлайн-платформах.
 
-### `npm start`
+## Основные особенности
+* **Интуитивный интерфейс:** Пользовательский интерфейс проекта разработан с учетом удобства и простоты использования, что позволяет даже новичкам легко обрезать свои фотографии.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Функция загрузки изображений**: Пользователи могут легко загружать фотографии с их локального хранилища для последующей обработки.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Инструменты обрезки:** Приложение предоставляет набор инструментов для обрезки изображений, включая возможность изменения размера области обрезки и ее позиционирования.
 
-### `npm test`
+* **Предпросмотр:** Пользователи могут видеть предварительный вид обрезки перед окончательным скачиванием, что позволяет им корректировать обрезку до достижения желаемого результата.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Скачивание:** После обрезки пользователи могут скачать готовое изображение на свой компьютер для использования в качестве аватара.
 
-### `npm run build`
+## Технологии
+* **React:** Использован для создания интерактивного пользовательского интерфейса и управления состоянием приложения.
+* **HTML/CSS:** Для структуры и стилизации веб-страницы.
+* **JavaScript (ES6):** Для реализации логики обрезки и управления событиями.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Установка и запуск
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Клонируйте репозиторий:
+git clone https://github.com/valery-lyapustin/react_crop_avatar.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Перейдите в папку проекта:
+cd react_crop_avatar
 
-### `npm run eject`
+3. Установите зависимости:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Запустите проект:
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Демо
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Посмотреть демо](https://valery-lyapustin.github.io/react_crop_avatar)
