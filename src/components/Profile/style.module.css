@@ -3,6 +3,7 @@
 	width: 100px;
 	height: 100px;
 	cursor: pointer;
+	margin-bottom: 20px;
 }
 
 .avatar input[type='file']{
