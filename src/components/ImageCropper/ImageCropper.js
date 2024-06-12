@@ -7,6 +7,8 @@ import ReactCrop, {
 import setCanvasPreview from "../../utils/setCanvasPreview";
 import dataURLtoFile from "../../utils/dataURLtoFile";
 import { useAppContext } from "../../contexts/AppContext/AppContextProvider";
+import Button from "../MaterialButton/Button";
+import styles from "./style.module.css";
 
 const ASPECT_RATIO = 1;
 const MIN_DIMENSION = 150;
@@ -63,18 +65,10 @@ const ImageCropper = ({ closeModal }) => {
 
 	return (
 		<>
-			<label className="block mb-3 w-fit">
-				<span className="sr-only">Choose profile photo</span>
-				<input
-					type="file"
-					accept="image/*"
-					onChange={onSelectFile}
-					className="block w-full text-sm text-slate-500 file:mr-4 file:py-1 file:px-2 file:rounded-full file:border-0 file:text-xs file:bg-gray-700 file:text-sky-300 hover:file:bg-gray-600"
-				/>
-			</label>
 			{imageBase64 && (
 				<div className="flex flex-col items-center">
 					<ReactCrop
+						className={styles["cropper"]}
 						crop={crop}
 						onChange={(pixelCrop, percentCrop) => setCrop(percentCrop)}
 					>
@@ -86,12 +80,7 @@ const ImageCropper = ({ closeModal }) => {
 							onLoad={onImageLoad}
 						/>
 					</ReactCrop>
-					<button
-						className="text-white font-mono text-xs py-2 px-4 rounded-2xl mt-4 bg-sky-500 hover:bg-sky-600"
-						onClick={handleSetCanvasPreview}
-					>
-						Crop Image
-					</button>
+					<Button ыч onClick={handleSetCanvasPreview}>Обрезать изображение</Button>
 				</div>
 			)}
 			{crop && (

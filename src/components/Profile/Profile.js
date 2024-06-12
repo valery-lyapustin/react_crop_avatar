@@ -1,7 +1,7 @@
 import ProfileAvatar from "../../assets/profile.png";
-import ModalDlg from "../ModalDlg/ModalDlg";
 import { useAppContext } from "../../contexts/AppContext/AppContextProvider";
 import styles from "./style.module.css";
+import ImageCropModal from "../ImageCropModal/ImageCropModal";
 
 const Profile = () => {
 	const store = useAppContext();
@@ -44,7 +44,7 @@ const Profile = () => {
 					<input type="file" accept="image/*" onClick={handleClickFileInput} onChange={handleSelectFile} />
 				</label>
 			</div>
-			{imageBase64 && showCropModalDlg && (<ModalDlg closeModal={handleHideCropModalDlg} />)}
+			{imageBase64 && showCropModalDlg && (<ImageCropModal show={showCropModalDlg} closeModalDlg={handleHideCropModalDlg} />)}
 		</div>
 	);
 };
