@@ -1,5 +1,3 @@
-
-import 'react-image-crop/dist/ReactCrop.css'
 import Profile from './components/Profile/Profile';
 
 function App() {

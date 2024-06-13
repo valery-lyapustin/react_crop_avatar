@@ -4,6 +4,8 @@ import ReactCrop, {
 	convertToPixelCrop,
 	makeAspectCrop,
 } from "react-image-crop";
+
+import 'react-image-crop/dist/ReactCrop.css'
 import setCanvasPreview from "../../utils/setCanvasPreview";
 import dataURLtoFile from "../../utils/dataURLtoFile";
 import { useAppContext } from "../../contexts/AppContext/AppContextProvider";
